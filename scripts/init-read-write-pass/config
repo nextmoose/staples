@@ -1,0 +1,5 @@
+Host personal
+HostName ${HOST_NAME}
+User ${USER}
+IdentityFile ${IDENTITY_FILE}
+UserKnownHostsFile ${USER_KNOWN_HOSTS_FILE}

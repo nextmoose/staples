@@ -1,0 +1,17 @@
+Host personal
+HostName ${PERSONAL_HOST_NAME}
+User ${PERSONAL_USER}
+IdentityFile ${HOME}/.ssh/personal.id_rsa
+UserKnownHostsFile ${HOME}/.ssh/personal.known_hosts
+
+Host upstream
+HostName ${UPSTREAM_HOST_NAME}
+User ${UPSTREAM_USER}
+IdentityFile ${HOME}/.ssh/upstream.id_rsa
+UserKnownHostsFile ${HOME}/.ssh/upstream.known_hosts
+
+Host report
+HostName ${REPORT_HOST_NAME}
+User ${REPORT_USER}
+IdentityFile ${HOME}/.ssh/report.id_rsa
+UserKnownHostsFile ${HOME}/.ssh/report.known_hosts

@@ -1,0 +1,17 @@
+Host upstream
+HostName ${UPSTREAM_HOST_NAME}
+User ${UPSTREAM_USER}
+IdentityFile ${UPSTREAM_IDENTITY_FILE}
+UserKnownHostsFile ${UPSTREAM_USER_KNOWN_HOSTS_FILE}
+
+Host origin
+HostName ${ORIGIN_HOST_NAME}
+User ${ORIGIN_USER}
+IdentityFile ${ORIGIN_IDENTITY_FILE}
+UserKnownHostsFile ${ORIGIN_USER_KNOWN_HOSTS_FILE}
+
+Host report
+HostName ${REPORT_HOST_NAME}
+User ${REPORT_USER}
+IdentityFile ${REPORT_IDENTITY_FILE}
+UserKnownHostsFile ${REPORT_USER_KNOWN_HOSTS_FILE}

@@ -1,0 +1,5 @@
+Host personal
+HostName ${PERSONAL_HOST_NAME}
+User ${PERSONAL_USER}
+IdentityFile ${HOME}/.ssh/personal.id_rsa
+UserKnownHostsFile ${HOME}/.ssh/personal.known_hosts
