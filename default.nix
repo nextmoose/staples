@@ -77,6 +77,7 @@ rec {
         pkgs.git
 	git-refresh
 	pkgs.coreutils
+	uuidgen
       ];
     };
     git-refresh = script {
@@ -86,6 +87,7 @@ rec {
         pkgs.git
 	git-standing
 	pkgs.coreutils
+	uuidgen
       ];
     };
     git-standing = script {
