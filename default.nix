@@ -78,7 +78,7 @@ rec {
 	git-refresh
 	pkgs.coreutils
 	uuidgen
-	pkgs.vi
+	pkgs.vim
       ];
     };
     git-refresh = script {
