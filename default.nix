@@ -120,9 +120,7 @@ rec {
       name = "homer";
       src = ./scripts/homer;
       dependencies = [
-        pkgs.coreutils
-	pkgs.which
-	cleanup
+        pkgs.nix
       ];
     };
     homey = script {
